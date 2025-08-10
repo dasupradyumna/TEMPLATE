@@ -50,7 +50,7 @@ jobs:
           fields: Status
           values: ${{ github.event.pull_request.merged == true && 'COMPLETED' || 'DISCARDED' }}
       - name: Clear dates for DISCARDED PRs
-        if: github.event.pull_request.state_reason != 'completed'
+        if: github.event.pull_request.merged == false
         uses: EndBug/project-fields@v2.1.0
         with:
           github_token: ${{ secrets.PROJECT_TOKEN }}
