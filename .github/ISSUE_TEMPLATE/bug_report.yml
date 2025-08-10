@@ -1,6 +1,6 @@
 name: Bug Report
 description: File a bug or an issue with TEMPLATE
-title: "[BUG] "
+title: '[BUG] '
 labels: [bug]
 assignees: [dasupradyumna]
 body:
@@ -22,8 +22,8 @@ body:
           required: true
   - type: input
     attributes:
-      label: "Environment"
-      placeholder: ""
+      label: Environment
+      # placeholder: ""
     validations:
       required: true
   - type: textarea
