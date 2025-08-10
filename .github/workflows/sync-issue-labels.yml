@@ -23,10 +23,10 @@ env:
       color: 555555
       description: Problem already noted in another item
     - name: doc
-      color: 111199
+      color: 333399
       description: Enhance existing documentation
     - name: feat
-      color: 336633
+      color: 447744
       description: New feature request or enhancement
     - name: help-wanted
       color: 335555
@@ -38,7 +38,7 @@ env:
       color: 555555
       description: Closed due to insufficient activity
     - name: waiting
-      color: 994411
+      color: 994422
       description: Waiting for feedback from author
 
 jobs:
